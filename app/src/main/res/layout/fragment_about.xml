@@ -6,15 +6,10 @@
     tools:context=".AboutFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <WebView
+        android:id="@+id/wv_about"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="About"
-        android:textSize="60dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        />
-
-
+        android:layout_height="match_parent"/>
 
 </FrameLayout>

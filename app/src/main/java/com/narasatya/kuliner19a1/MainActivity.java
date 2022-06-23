@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bnvMenuBawah = findViewById(R.id.bnv_menu);
 
         getSupportFragmentManager().beginTransaction().replace(R.id. body_container, new HomeFragment()).commit();
+        getSupportActionBar();setTitle("Home");
 
         bnvMenuBawah.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
