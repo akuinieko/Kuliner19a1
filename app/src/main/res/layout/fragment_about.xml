@@ -3,16 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutFragment"
-    android:background="#00BCD4">
+    tools:context=".AboutFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Halaman About"
-        android:textSize="50dp"
+        android:text="About"
+        android:textSize="60dp"
+        android:textStyle="bold"
         android:gravity="center"
         />
+
 
 
 </FrameLayout>

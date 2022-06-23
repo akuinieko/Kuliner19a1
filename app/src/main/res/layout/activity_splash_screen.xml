@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:id="@+id/body_container">
+    tools:context=".SplashScreen">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnv_menu"
+    <ImageView
+        android:id="@+id/iv_splash"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:menu="@menu/menu_bawah"
-        android:layout_alignParentBottom="true"
-        app:itemBackground="@android:color/holo_blue_bright"
+        android:layout_height="match_parent"
+        android:src="@drawable/gambar_splash"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         />
 
 </RelativeLayout>
